@@ -106,7 +106,7 @@ class CustomBuildPy(build_py):
 
 if __name__ == "__main__":
     setup(name='xlearn',
-          version=open(os.path.join(CURRENT_DIR, 'xlearn/VERSION')).read().strip(),
+          version="0.40.a1",
           description="xLearn Python Package",
           maintainer='Chao Ma',
           maintainer_email='mctt90@gmail.com',
@@ -121,9 +121,8 @@ if __name__ == "__main__":
           # this is the golden line
           include_package_data=True,
           install_requires=[
-              'numpy', 
-              'scipy<1.3.0; python_version<"3"',
-              'scipy>=1.3.0; python_version>="3"'
+              "numpy", 
+              "scipy==1.2.2"
           ],
           # move data to MANIFEST.in
           license='Apache-2.0',

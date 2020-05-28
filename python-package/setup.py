@@ -40,9 +40,8 @@ setup(name='xlearn',
       # this is the golden line
       include_package_data=True,
       install_requires=[
-            'numpy', 
-            'scipy<1.3.0; python_version<"3"',
-            'scipy>=1.3.0; python_version>="3"'
+            "numpy", 
+            "scipy==1.2.2"
       ],
       data_files=[('xlearn', LIB_PATH)],
       license='Apache-2.0',

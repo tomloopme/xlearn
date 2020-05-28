@@ -5,7 +5,7 @@
 
 ## What is xLearn?
 
-xLearn is a ***high performance***, ***easy-to-use***, and ***scalable*** machine learning package that contains linear model (LR), factorization machines (FM), and field-aware factorization machines (FFM), all of which can be used to solve large-scale machine learning problems. xLearn is especially useful for solving machine learning problems on large-scale sparse data. Many real world datasets deal with high dimensional sparse feature vectors like a recommendation system where the number of categories and users is on the order of millions. In that case, if you are the user of liblinear, libfm, and libffm, now xLearn is your another better choice.
+xLearn is a ***high performance***, ***easy-to-use***, and ***scalable*** machine learning package, including linear model (LR), factorization machines (FM), and field-aware factorization machines (FFM), which can be used to solve large-scale machine learning problems. xLearn is especially useful for solving machine learning problems on large-scale sparse data. Many real world datasets deal with high dimensional sparse feature vectors like a recommendation system where the number of categories and users is on the order of millions. In that case, if you are the user of liblinear, libfm, and libffm, now xLearn is your another better choice.
 
 [Get Started! (English)](http://xlearn-doc.readthedocs.io/en/latest/index.html)
 
@@ -21,7 +21,7 @@ xLearn is developed by high-performance C++ code with careful design and optimiz
 
 <img src="https://github.com/aksnzhy/xLearn/raw/master/img/code.png" width = "600"/>
 
-xLearn does not rely on any third-party library and users can just clone the code and compile it by using cmake. Also, xLearn supports very simple Python and CLI interface for data scientists, and it also offers many useful features that have been widely used in machine learning and data mining competitions, such as cross-validation, early-stop, etc.
+xLearn does not rely on any troublesome third-party library, and hence users can just clone the code and compile it by using cmake. Also, xLearn supports very simple Python and CLI interface for data scientists, and it also offers many useful features that have been widely used in machine learning and data mining competitions, such as cross-validation, early-stop, etc.
 
 ### Scalability
 
@@ -34,18 +34,16 @@ xLearn can be used for solving large-scale machine learning problems. First, xLe
 xLearn has been developed and used by many active community members. Your help is very valuable to make it better for everyone.
 
  * Please contribute if you find any bug in xLearn.
- * Contribute new features you want to see in xLearn.
  * Contribute to the tests to make it more reliable.
  * Contribute to the documents to make it clearer for everyone.
  * Contribute to the examples to share your experience with other users.
  * Open issue if you met problems during development.
 
-Note that, please post iusse and contribution in *English* so that everyone can get help from them.
+ Note that, please post iusse and contribution in *English* so that everyone can get help from them.
 
 ### Contributors (rank randomly)
 
-<img src="https://github.com/aksnzhy/xLearn/raw/master/img/10520307.jpeg" width = "40"/><img src="https://github.com/aksnzhy/xLearn/raw/master/img/11278017.jpeg" width = "40"/><img src="https://github.com/aksnzhy/xLearn/raw/master/img/1289856.jpeg" width = "40"/><img src="https://github.com/aksnzhy/xLearn/raw/master/img/13925796.jpeg" width = "40"/><img src="https://github.com/aksnzhy/xLearn/raw/master/img/15322665.jpeg" width = "40"/><img src="https://github.com/aksnzhy/xLearn/raw/master/img/1842965.jpeg" width = "40"/><img src="https://github.com/aksnzhy/xLearn/raw/master/img/21072881.jpeg" width = "40"/><img src="https://github.com/aksnzhy/xLearn/raw/master/img/22660103.jpeg" width = "40"/><img src="https://github.com/aksnzhy/xLearn/raw/master/img/2387719.jpeg" width = "40"/><img src="https://github.com/aksnzhy/xLearn/raw/master/img/25626965.jpeg" width = "40"/><img src="https://github.com/aksnzhy/xLearn/raw/master/img/3086744.png" width = "40"/><img src="https://github.com/aksnzhy/xLearn/raw/master/img/3928409.jpeg" width = "40"/><img src="https://github.com/aksnzhy/xLearn/raw/master/img/4606937.jpeg" width = "40"/><img src="https://github.com/aksnzhy/xLearn/raw/master/img/6054101.jpeg" width = "40"/><img src="https://github.com/aksnzhy/xLearn/raw/master/img/6161143.png" width = "40"/><img src="https://github.com/aksnzhy/xLearn/raw/master/img/7145046.jpeg" width = "40"/><img src="https://github.com/aksnzhy/xLearn/raw/master/img/7608904.jpeg" width = "40"/><img src="https://github.com/aksnzhy/xLearn/raw/master/img/27916175.jpeg" width = "40"/><img src="https://github.com/aksnzhy/xLearn/raw/master/img/7608904.jpeg" width = "40"/><img src="https://github.com/aksnzhy/xLearn/raw/master/img/1443518.png" width = "40"/><img src="https://github.com/aksnzhy/xLearn/raw/master/img/9783213.png" width = "40"/><img src="https://github.com/aksnzhy/xLearn/raw/master/img/4609798.jpeg" width = "40"/><img src="https://github.com/aksnzhy/xLearn/raw/master/img/11628637.png" width = "40"/><img src="https://github.com/aksnzhy/xLearn/raw/master/img/1726448.jpeg" width = "40"/><img src="https://github.com/aksnzhy/xLearn/raw/master/img/32598525.jpeg" width = "40"/><img src="https://github.com/aksnzhy/xLearn/raw/master/img/3285618.jpeg" width = "40"/><img src="https://github.com/aksnzhy/xLearn/raw/master/img/8625634.jpeg" width = "40"/><img src="https://github.com/aksnzhy/xLearn/raw/master/img/11938898.png" width = "40"/>
-
+<img src="https://github.com/aksnzhy/xLearn/raw/master/img/10520307.jpeg" width = "40"/><img src="https://github.com/aksnzhy/xLearn/raw/master/img/11278017.jpeg" width = "40"/><img src="https://github.com/aksnzhy/xLearn/raw/master/img/1289856.jpeg" width = "40"/><img src="https://github.com/aksnzhy/xLearn/raw/master/img/13925796.jpeg" width = "40"/><img src="https://github.com/aksnzhy/xLearn/raw/master/img/15322665.jpeg" width = "40"/><img src="https://github.com/aksnzhy/xLearn/raw/master/img/1842965.jpeg" width = "40"/><img src="https://github.com/aksnzhy/xLearn/raw/master/img/21072881.jpeg" width = "40"/><img src="https://github.com/aksnzhy/xLearn/raw/master/img/22660103.jpeg" width = "40"/><img src="https://github.com/aksnzhy/xLearn/raw/master/img/2387719.jpeg" width = "40"/><img src="https://github.com/aksnzhy/xLearn/raw/master/img/25626965.jpeg" width = "40"/><img src="https://github.com/aksnzhy/xLearn/raw/master/img/3086744.png" width = "40"/><img src="https://github.com/aksnzhy/xLearn/raw/master/img/3928409.jpeg" width = "40"/><img src="https://github.com/aksnzhy/xLearn/raw/master/img/4606937.jpeg" width = "40"/><img src="https://github.com/aksnzhy/xLearn/raw/master/img/6054101.jpeg" width = "40"/><img src="https://github.com/aksnzhy/xLearn/raw/master/img/6161143.png" width = "40"/><img src="https://github.com/aksnzhy/xLearn/raw/master/img/7145046.jpeg" width = "40"/><img src="https://github.com/aksnzhy/xLearn/raw/master/img/7608904.jpeg" width = "40"/><img src="https://github.com/aksnzhy/xLearn/raw/master/img/27916175.jpeg" width = "40"/><img src="https://github.com/aksnzhy/xLearn/raw/master/img/7608904.jpeg" width = "40"/><img src="https://github.com/aksnzhy/xLearn/raw/master/img/1443518.png" width = "40"/><img src="https://github.com/aksnzhy/xLearn/raw/master/img/9783213.png" width = "40"/><img src="https://github.com/aksnzhy/xLearn/raw/master/img/4609798.jpeg" width = "40"/>
 
 ## For Enterprise Users and Call for Sponsors
 
@@ -53,12 +51,8 @@ If you are enterprise users and find xLearn is useful in your work, please let u
 
 <img src="https://github.com/aksnzhy/xLearn/raw/master/img/tencent.png" width = "200"/>
 <img src="https://github.com/aksnzhy/xLearn/raw/master/img/stategrid.jpg" width = "200"/>
-<img src="https://github.com/aksnzhy/xLearn/raw/master/img/xiaodaka.png" width = "200"/>
-<img src="https://github.com/aksnzhy/xLearn/raw/master/img/beikezhaofang.png" width = "200"/>
 
 ## What's New
-
- - 2019-10-13 [Andrew Kane](https://github.com/ankane) add [Ruby bindings](https://github.com/ankane/xlearn) for xLearn!
 
  - 2019-4-25 xLearn 0.4.4 version release. Main update:
 

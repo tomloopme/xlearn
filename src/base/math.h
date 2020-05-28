@@ -16,7 +16,7 @@
 
 /*
 This file provides a set of fast ( but approximate )
-mathematical methods.
+mathmatic methods.
 */
 
 #ifndef XLEARN_BASE_MATH_H_

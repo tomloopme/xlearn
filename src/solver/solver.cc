@@ -302,7 +302,7 @@ void Solver::init_train() {
         if (tmp > max_field) { max_field = tmp; }
       }
     }
-    // Return to the beginning of target file.
+    // Return to the begining of target file.
     reader_[i]->Reset();
   }
   hyper_param_.num_feature = max_feat + 1;
@@ -402,9 +402,6 @@ void Solver::init_predict() {
    *  Initialize thread pool                               *
    *********************************************************/
   size_t threadNumber = std::thread::hardware_concurrency();
-  if (hyper_param_.thread_number != 0) {
-    threadNumber = hyper_param_.thread_number;
-  }
   pool_ = new ThreadPool(threadNumber);
   Color::print_info(
     StringPrintf("xLearn uses %i threads for prediction task.",

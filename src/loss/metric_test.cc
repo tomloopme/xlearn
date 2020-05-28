@@ -58,7 +58,7 @@ TEST(AccMetricTest, acc_test) {
   metric.Accumulate(Y, pred);
   metric_val = metric.GetMetric();
   EXPECT_FLOAT_EQ(metric_val, (1.0 / 4.0));
-  EXPECT_EQ(metric.metric_type(), "Accuracy");
+  EXPECT_EQ(metric.metric_type(), "Accuarcy");
 }
 
 TEST(PrecMetricTest, prec_test) {

@@ -29,7 +29,7 @@ namespace xLearn {
 
 index_t kLine = 10;
 
-TEST(SQUARED_LOSS, Evaluate) {
+TEST(SQUARED_LOSS, Evalute) {
   // Create pred vector
   std::vector<real_t> pred(kLine);
   for (int i = 0; i < pred.size(); ++i) {
@@ -46,7 +46,7 @@ TEST(SQUARED_LOSS, Evaluate) {
   size_t threadNumber = std::thread::hardware_concurrency();
   ThreadPool* pool = new ThreadPool(threadNumber);
   loss.Initialize(score, pool);
-  loss.Evaluate(pred, label);
+  loss.Evalute(pred, label);
   real_t val = loss.GetLoss();
   EXPECT_FLOAT_EQ(val, 14.25);
 }

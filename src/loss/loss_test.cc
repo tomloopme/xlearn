@@ -38,7 +38,7 @@ class TestLoss : public Loss {
   TestLoss() { }
   ~TestLoss() { }
 
-  void Evaluate(const std::vector<real_t>& pred,
+  void Evalute(const std::vector<real_t>& pred,
                const std::vector<real_t>& label) { return; }
 
   void CalcGrad(const DMatrix* data_matrix,
@@ -62,7 +62,7 @@ class LossTest : public ::testing::Test {
   virtual void SetUp() {
     param.learning_rate = 0.1;
     param.regu_lambda = 0;
-    param.loss_func = "squared";
+    param.loss_func = "sqaured";
     param.score_func = "linear";
     param.num_feature = 3;
     param.num_field = 3;
