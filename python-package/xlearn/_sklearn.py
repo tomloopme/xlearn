@@ -384,12 +384,12 @@ class LRModel(BaseXLearnModel):
     def __init__(self, model_type='lr', task='binary', metric='auc', block_size=500,
                  lr=0.2, k=4, reg_lambda=0.1, init=0.1, fold=1, epoch=5, stop_window=2,
                  opt='sgd', nthread=None, n_jobs=4, alpha=1, beta=1, lambda_1=1, lambda_2=1,
-                 seed=1, **kwargs):
+                 seed=1, model_file_name=None, **kwargs):
         assert model_type == 'lr', 'Model type must be set to lr for LRModel'
         super(LRModel, self).__init__(model_type, task, metric, block_size,
                                       lr, k, reg_lambda, init, fold, epoch, stop_window,
                                       opt, nthread, n_jobs, alpha, beta, lambda_1, lambda_2,
-                                      seed, **kwargs)
+                                      seed, model_file_name, **kwargs)
 
     def __delete__(self, instance):
         super(LRModel, self).__delete__(instance)
@@ -400,12 +400,12 @@ class FFMModel(BaseXLearnModel):
     def __init__(self, model_type='ffm', task='binary', metric='auc', block_size=500,
                  lr=0.2, k=4, reg_lambda=0.1, init=0.1, fold=1, epoch=5, stop_window=2,
                  opt='sgd', nthread=None, n_jobs=4, alpha=1, beta=1, lambda_1=1, lambda_2=1,
-                 seed=1, **kwargs):
+                 seed=1, model_file_name=None, **kwargs):
         assert model_type == 'ffm', 'Model type must be set to ffm for FFMModel'
         super(FFMModel, self).__init__(model_type, task, metric, block_size,
                                        lr, k, reg_lambda, init, fold, epoch, stop_window,
                                        opt, nthread, n_jobs, alpha, beta, lambda_1, lambda_2,
-                                       seed, **kwargs)
+                                       seed, model_file_name, **kwargs)
 
     def __delete__(self, instance):
         super(FFMModel, self).__delete__(instance)
