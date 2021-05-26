@@ -135,7 +135,7 @@ class BaseXLearnModel(BaseEstimator):
 
         # initialize internal structure
         self._XLearnModel = None
-        self._temp_model_file = model_file_name if model_file_name else tempfile.NamedTemporaryFile(delete=False)
+        self._temp_model_file = tempfile.NamedTemporaryFile(prefix=model_file_name + '_' if model_file_name else '', delete=False)
         self._temp_weight_file = tempfile.NamedTemporaryFile(delete=False)
         self.weights = None
         self.fields = None
