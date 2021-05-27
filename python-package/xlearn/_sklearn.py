@@ -168,6 +168,7 @@ class BaseXLearnModel(BaseEstimator):
         # rename reg_lambda as lambda, and remove model_type
         xlearn_param['lambda'] = xlearn_param.pop('reg_lambda')
         xlearn_param.pop('model_type')
+        xlearn_param.pop('model_file_name')
 
         # rename n_jobs to nthread for _XLearnModel
         n_jobs = xlearn_param.pop('n_jobs')
